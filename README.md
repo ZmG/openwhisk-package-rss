@@ -6,16 +6,15 @@ This package allows users to subscribe to RSS/ATOM feeds and receive events when
 
 openwhisk-package-rss/
 ├── actions
-│   └── hello_world.js
+│   └── app.js
 ├── CONTRIBUTING.md
+|-- images 
 ├── feeds
 │      └── feed.js
 ├── install.sh
 ├── LICENSE.txt
 ├── README.md
 ├── tests
-│   ├── credentials.json
-│   ├── credentials.json.enc
 │   └── src
 │      └── RssTests.scala
 ├── tools
@@ -23,7 +22,6 @@ openwhisk-package-rss/
 │       └── build.sh
 ├── rssEventProvider
 │      └── app.js
-|	   |__ Logger.js
 |	   |__ manifest.yml
 |	   |__ package.json
 └── uninstall.sh
